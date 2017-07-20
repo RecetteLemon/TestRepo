@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="InputManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h" />
+    <ClInclude Include="Event.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Selection.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIAtlas.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIBase.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIInputField.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UILabel.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIProgressBar.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIScrollBar.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphSearch.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{faf6e619-f697-4b17-8c94-83b82cd96fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{d2db1e0b-f4c6-4b50-bee3-7e9713226f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{f492dd35-6de8-415f-b29c-2ca9ce205f04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
